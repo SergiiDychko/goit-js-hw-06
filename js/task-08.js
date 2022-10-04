@@ -9,7 +9,7 @@ function handleSubmit(event) {
   }
 
   console.log(`E-mail: ${email.value}, Password: ${password.value}`);
-  event.currentTarget.reset();
+  event.target.reset();
 }
 
 form.addEventListener('submit', handleSubmit);
